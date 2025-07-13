@@ -8,11 +8,12 @@ void main() async {
   
   await Firebase.initializeApp(
       //name: "routine_tracker",                      // use // for chrome
+    // tasty-home-treats
       options: const FirebaseOptions(
-          apiKey: "AIzaSyBZOgAFqCCR3hh76vvs5av2_4X86ybaA78",
-          appId: "1:1002409124497:android:99ac69884928e8ea855530",
-          messagingSenderId: "1002409124497",
-          projectId: "tasty-home-treats"));
+          apiKey: "",
+          appId: "",
+          messagingSenderId: "",
+          projectId: ""));
   runApp(const MyApp());
 }
 
